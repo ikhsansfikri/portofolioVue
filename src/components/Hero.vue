@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // Impor data dari file JSON
-import portfolioData from "@/data/portfolio.ts";
+import portfolioData from "@/data/portfolio";
 </script>
 
 <template>

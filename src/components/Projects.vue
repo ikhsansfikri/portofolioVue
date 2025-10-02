@@ -2,9 +2,8 @@
 import { ref } from "vue";
 import ProjectCard from "./ProjectCard.vue";
 import type { Project } from "@/types";
-import portfolioData from "@/data/portfolio.ts";
+import portfolioData from "@/data/portfolio";
 
-// Beri tipe pada ref sebagai array dari Project (Project[])
 const projects = ref<Project[]>(portfolioData.projects);
 </script>
 

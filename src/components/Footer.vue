@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import portfolioData from "@/data/portfolio.ts";
+import portfolioData from "@/data/portfolio";
 // Mendapatkan tahun saat ini secara dinamis untuk copyright
 const currentYear = new Date().getFullYear();
 </script>

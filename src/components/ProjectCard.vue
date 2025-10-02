@@ -1,15 +1,6 @@
 <script setup lang="ts">
 import type { Project } from "@/types";
-// Definisikan kembali atau impor interface Project
-interface Project {
-  id: number;
-  title: string;
-  image: string;
-  description: string;
-  technologies: string[];
-}
 
-// Gunakan sintaks TypeScript untuk defineProps
 defineProps<{
   project: Project;
 }>();

@@ -5,7 +5,6 @@ import Projects from "./components/Projects.vue";
 import Experience from "./components/Experience.vue";
 import Footer from "./components/Footer.vue";
 import logoTransparent from "./assets/logo-transparent.png";
-import portfolioData from "@/data/portfolio.ts";
 
 // Memberikan tipe data 'boolean' pada ref
 const isDarkMode = ref<boolean>(false);
@@ -52,9 +51,8 @@ onMounted(() => {
           <img
             :src="logoTransparent"
             alt="IF Logo"
-            class="h-10 w-auto pt-2 mx-auto rounded-full"
+            class="h-12 w-auto pt-2 mx-auto rounded-full"
           />
-          {{ portfolioData.name }}
         </div>
         <button
           @click="toggleDarkMode"

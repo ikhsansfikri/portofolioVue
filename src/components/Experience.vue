@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { Experience } from "@/types";
-import portfolioData from "@/data/portfolio.ts";
+import portfolioData from "@/data/portfolio";
 // Data pengalaman kerja Anda. Edit bagian ini sesuai riwayat Anda.
 const experiences = portfolioData.experiences as Experience[];
 </script>
