@@ -1,0 +1,15 @@
+services:
+  portofolioVue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portofolioVue
+    restart: unless-stopped
+    image: portofolio_vue
+    networks:
+      - dockerVnet
+
+networks:
+  dockerVnet:
+    external: true
+    
