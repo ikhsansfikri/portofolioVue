@@ -5,6 +5,7 @@ export interface Project {
   description: string;
   technologies: string[];
   link: string;
+  year?: number;
 }
 
 export interface Experience {
