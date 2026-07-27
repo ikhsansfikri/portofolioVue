@@ -47,7 +47,7 @@ const portfolioData = {
       title: "Computer Based Testing (CBT)",
       image: cbt,
       description: "A fully-featured Computer Based Test website with features for creating, managing, and administering online exams.",
-      technologies: ["Django", "React", "Bootstrap", "MySQL"],
+      technologies: ["Laravel", "Bootstrap", "MySQL"],
       link: "https://cbt.ikhsanfikri.xyz",
       year: 2024
     },
