@@ -38,7 +38,7 @@ const portfolioData = {
       title: "SIMAPRES",
       image: simapres,
       description: "Developing the SIMAPRES application for the Student Affairs and Achievement Directorate of Universitas Syiah Kuala to digitize and optimize the management and selection of scholarship admissions within Universitas Syiah Kuala.",
-      technologies: ["Django", "React", "Bootstrap", "MySQL"],
+      technologies: ["Laravel", "Bootstrap", "MySQL"],
       link: "https://simapres.usk.ac.id",
       year: 2025
     },
@@ -47,7 +47,7 @@ const portfolioData = {
       title: "Computer Based Testing (CBT)",
       image: cbt,
       description: "A fully-featured Computer Based Test website with features for creating, managing, and administering online exams.",
-      technologies: ["Laravel", "Bootstrap", "MySQL"],
+      technologies: ["Django", "React", "Bootstrap", "MySQL"],
       link: "https://cbt.ikhsanfikri.xyz",
       year: 2024
     },
